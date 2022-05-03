@@ -23,12 +23,12 @@ class SplashActivity : AppCompatActivity() {
         }
 
         splashProgress=findViewById(R.id.splashProgress);
-        ObjectAnimator.ofInt(splashProgress,"progress",100).setDuration(10000).start();
+        ObjectAnimator.ofInt(splashProgress,"progress",100).setDuration(1500).start();
 
         Handler().postDelayed(Runnable {
             val intent = Intent(this@SplashActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 10000)
+        }, 1500)
     }
 }
