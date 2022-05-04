@@ -49,11 +49,129 @@
         android:id="@+id/tv_datenow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="95dp"
-        android:layout_marginEnd="28dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="16dp"
         android:text="Fecha: 03/05/2022"
         android:textColor="#fff"
         android:textSize="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="30dp"
+        android:stretchColumns="1">
+        <!---Esta fila no se elimina porque son las cabeceras.-->
+        <TableRow
+            android:background="#626479">
+            <TextView
+                android:text="N. DE RUTA"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="DESTINO"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:text="HORA DE SALIDA"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="PRECIO"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+
+        <!---ELIMINAR DE AQUI PARA ABAJO, CUANDO YA SE TRAIGAN DATOS DE LA API-->
+        <TableRow>
+            <TextView
+                android:text="118"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="COMALAPA"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:text="9:00 AM"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="$1.25"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="126"
+                android:textColor="#FFF"
+                android:textAlignment="center"
+                android:padding="3dip" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="CONCEPCION QUEZALTEPEQUE"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:text="10:00 AM"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="$1.75"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="125"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="SAN SALVADOR"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:text="01:00 PM"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="$2.50"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+    </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

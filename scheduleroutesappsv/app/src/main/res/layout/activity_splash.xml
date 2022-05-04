@@ -25,21 +25,24 @@
                 android:layout_height="wrap_content"
                 android:text="CONTROL DE HORARIOS DE RUTAS NACIONALES"
                 android:textSize="25dp"
+                android:layout_marginBottom="20dp"
                 android:textColor="#fff"
                 android:textAlignment="center"></TextView>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Bajo la supervición del"
+                android:text="Un proyecto bajo la supervición de UNAB El Salvador."
                 android:textSize="15dp"
+                android:layout_marginBottom="15dp"
                 android:textColor="#fff"
                 android:textAlignment="center"></TextView>
 
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/logovmt" />
+                android:layout_height="130dp"
+                android:layout_marginTop="25dp"
+                app:srcCompat="@drawable/busstopsignal" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
