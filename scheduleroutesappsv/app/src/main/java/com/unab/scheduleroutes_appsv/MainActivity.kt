@@ -1,5 +1,6 @@
 package com.unab.scheduleroutes_appsv
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -99,5 +100,11 @@ class MainActivity : AppCompatActivity() {
         var citySelected=sp_Municipio.selectedItem.toString()
 
         Toast.makeText(this, "Ha seleccionado: " + citySelected +", "+ departmentSelected +".", Toast.LENGTH_LONG).show()
+
+        val intent = Intent(this@MainActivity, ScheduleTable::class.java)
+        intent.putExtra("Department", departmentSelected)
+        intent.putExtra("City", citySelected)
+        startActivity(intent)
+        finish()
     }
 }
