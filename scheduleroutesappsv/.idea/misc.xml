@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/layout/activity_schedule_table.xml" value="0.25" />
-        <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/layout/activity_splash.xml" value="0.25407608695652173" />
+        <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/layout/activity_schedule_table.xml" value="0.33" />
+        <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/andre/Documents/GitHub/shedule-routes-sv-app/scheduleroutesappsv/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.22135416666666666" />
       </map>
     </option>
   </component>

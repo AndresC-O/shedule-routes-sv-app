@@ -82,7 +82,19 @@
                 android:textColor="#FFF" />
 
             <TextView
-                android:text="HORA DE SALIDA"
+                android:text="ESTADO"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="PARTIÓ"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="SALIDA PROX"
                 android:textColor="#FFF"
                 android:padding="3dip"
                 android:layout_marginLeft="20dp"/>
@@ -105,6 +117,18 @@
             <TextView
                 android:padding="3dip"
                 android:text="COMALAPA"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="RETRASADO"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="8:55 AM"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -135,6 +159,18 @@
                 android:textColor="#FFF" />
 
             <TextView
+                android:padding="3dip"
+                android:text="A TIEMPO"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="7:55 AM"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
                 android:text="10:00 AM"
                 android:textColor="#FFF"
                 android:padding="3dip"
@@ -161,6 +197,18 @@
                 android:textColor="#FFF" />
 
             <TextView
+                android:padding="3dip"
+                android:text="LLEGANDO"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="10:30 AM"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
                 android:text="01:00 PM"
                 android:textColor="#FFF"
                 android:padding="3dip"
@@ -168,6 +216,44 @@
 
             <TextView
                 android:text="$2.50"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="2-B 2"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="MEJICANOS-SAN JACINTO-COL"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="EN RUTA"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="04:50 PM"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:text="04:50 PM"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="$2.75"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip"
