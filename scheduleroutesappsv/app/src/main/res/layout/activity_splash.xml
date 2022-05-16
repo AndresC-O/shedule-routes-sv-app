@@ -23,9 +23,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="CONTROL DE HORARIOS DE RUTAS NACIONALES"
-                android:textSize="25dp"
-                android:layout_marginBottom="20dp"
+                android:text="ROUTES' SMART BOOTH"
+                android:textSize="35dp"
+                android:layout_marginBottom="1dp"
                 android:textColor="#fff"
                 android:textAlignment="center"></TextView>
 
@@ -34,7 +34,7 @@
                 android:layout_height="wrap_content"
                 android:text="Un proyecto bajo la supervición de UNAB El Salvador."
                 android:textSize="15dp"
-                android:layout_marginBottom="15dp"
+                android:layout_marginBottom="25dp"
                 android:textColor="#fff"
                 android:textAlignment="center"></TextView>
 
