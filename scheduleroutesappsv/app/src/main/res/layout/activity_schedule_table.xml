@@ -58,6 +58,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TableLayout
+        android:id="@+id/id_table"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textAlignment="center"
@@ -107,6 +108,7 @@
         </TableRow>
 
         <!---ELIMINAR DE AQUI PARA ABAJO, CUANDO YA SE TRAIGAN DATOS DE LA API-->
+        <!---
         <TableRow>
             <TextView
                 android:text="118"
@@ -259,5 +261,6 @@
                 android:padding="3dip"
                 android:layout_marginLeft="20dp"/>
         </TableRow>
+        -->
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
