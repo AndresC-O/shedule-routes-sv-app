@@ -107,4 +107,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
         finish()
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this@MainActivity, SplashActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 }

@@ -52,4 +52,11 @@ class ScheduleTable : AppCompatActivity() {
         tv_departments.setText("Departamento: " + department)
         tv_city.setText("Municipio: " + city)
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        val intent = Intent(this@ScheduleTable, MainActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 }
