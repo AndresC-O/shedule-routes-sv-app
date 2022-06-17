@@ -109,14 +109,14 @@
         <!---ELIMINAR DE AQUI PARA ABAJO, CUANDO YA SE TRAIGAN DATOS DE LA API-->
         <TableRow>
             <TextView
-                android:text="118"
+                android:text="124A"
                 android:textColor="#FFF"
                 android:textAlignment="center"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="COMALAPA"
+                android:text="DULCE NOMBRE DE MARÍA"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -154,7 +154,7 @@
 
             <TextView
                 android:padding="3dip"
-                android:text="CONCEPCION QUEZALTEPEQUE"
+                android:text="LA LAGUNA"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -185,14 +185,14 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:text="125"
+                android:text="300B"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="SAN SALVADOR"
+                android:text="CONCEPCIÓN QUEZALTEPEQUE"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -223,14 +223,14 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:text="2-B 2"
+                android:text="125"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="MEJICANOS-SAN JACINTO-COL"
+                android:text="SAN SALVADOR"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -261,14 +261,14 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:text="46-C"
+                android:text="542"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="NUEVA CONCEPCIÓN"
+                android:text="AZACUALPA"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -299,14 +299,14 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:text="102"
+                android:text="542D"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="EL CARRIZAL"
+                android:text="SAN MIGUEL DE MERCEDES"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -337,14 +337,14 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:text="89-C"
+                android:text="628"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="SONSONATE"
+                android:text="SANTA RITA"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -375,14 +375,14 @@
         </TableRow>
         <TableRow>
             <TextView
-                android:text="19-B"
+                android:text="639"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip" />
 
             <TextView
                 android:padding="3dip"
-                android:text="PARQUE CENTRAL, SAN SALVADOR"
+                android:text="DULCE NOMBRE DE JESÚS"
                 android:layout_marginLeft="20dp"
                 android:textColor="#FFF" />
 
@@ -406,6 +406,44 @@
 
             <TextView
                 android:text="$2.35"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="542A"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:padding="3dip" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="SAN LUIS DEL CARMEN"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="A TIEMPO"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:padding="3dip"
+                android:text="07:15 PM"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFF" />
+
+            <TextView
+                android:text="08:30 PM"
+                android:textColor="#FFF"
+                android:padding="3dip"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:text="$1.00"
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:padding="3dip"
